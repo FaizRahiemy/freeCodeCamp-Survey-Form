@@ -1,0 +1,78 @@
+body {
+    background: #222831;
+    color: #EEEEEE;
+    font-family: Arial;
+}
+
+header {
+    margin: 1em;
+
+    text-align: center;
+}
+
+#survey-form {
+    margin: 2em;
+    padding: 1em;
+
+    border: .1em solid #EEEEEE;
+    border-radius: 1em;
+    background: #393E46;
+}
+
+fieldset {
+    padding: 1em;
+    padding-bottom: .5em;
+
+    border: .1em solid #EEEEEE;
+    border-radius: 1em;
+}
+
+fieldset:not(:first-of-type) {
+    margin-top: 1em;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+select,
+textarea {
+    margin-top: .5em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+    width: 100%;
+    min-height: 2em;
+    line-height: 2em;
+
+    border: .1em solid #EEEEEE;
+    border-radius: 1em;
+    background: transparent;
+    color: #EEEEEE
+}
+
+button {
+    float: right;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+    width: 10em;
+    min-height: 2em;
+    line-height: 2em;
+    font-weight: bold;
+
+    border: .1em solid #393E46;
+    border-radius: 1em;
+    background: #FFD369;
+    color: #393E46
+}
+
+button:hover {
+    background: #222831;
+}

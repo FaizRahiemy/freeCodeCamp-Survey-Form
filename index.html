@@ -1,0 +1,41 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+        <h1 id="title">Faiz's Survey</h1>
+        <p id="description">This is a survey, created for freeCodeCamp's survey form challenge</p>
+    </header>
+    <form id="survey-form">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label id="name-label" for="name">Name</label><br>
+            <input id="name" type="text" placeholder="Enter your name" required/><br>
+            <label id="email-label" for="email">Email</label><br>
+            <input id="email" type="email" placeholder="Enter your email" required/>
+            <label id="number-label" for="number">Age</label><br>
+            <input id="number" type="number" min="1" max="100" placeholder="Age"/>
+            Occupation
+            <select id="dropdown">
+              <option>Software Engineer</option>
+              <option>Database Administrator</option>
+              <option>Security Engineer</option>
+              <option>Other</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Feedback</legend>
+            Do you think this survey form is lit?<br>
+            <label><input name="radio" type="radio" value="Yes"/>Yes</label>
+            <label><input name="radio" type="radio" value="Absolutely"/>Absolutely</label><br><br>
+            <label id="dropdown-label" for="dropdown">What's cool from this form?</label><br>
+            <label><input name="cool" type="checkbox" value="Layout"/>Layout</label>
+            <label><input name="cool" type="checkbox" value="Colour Pallette"/>Colour Pallette</label>
+            <label><input name="cool" type="checkbox" value="Content"/>Content</label>
+            <label><input name="cool" type="checkbox" value="Creator ;)"/>Creator ;)</label><br><br>
+            What should be improved
+            <textarea></textarea><br/><br/>
+            <button id="submit">Submit</button>
+        </fieldset>
+    </form>
+  </body>
